@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>JuanStream Dashboard</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-default.css"
@@ -14,24 +14,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section>Hi</section>
+  <div class="logo">
+    <img src="JuanStreamLogo.png">
+  </div>
     <div class="stats-container">
       <div class="stat">
-        <div class="subscribers-odometer odometer plus">0</div>
-        <div class="type">Subscribers</div>
+        <div class="video-odometer odometer plus">117,274</div>
+        <div class="type">Video Files Processed</div>
       </div>
 
       <div class="stat">
-        <div class="videos-odometer odometer plus">0</div>
-        <div class="type">Videos</div>
+        <div class="ingest-odometer odometer plus">58,411</div>
+        <div class="type">GBs of Video Data Ingested</div>
       </div>
 
       <div class="stat">
-        <div class="projects-odometer odometer">0</div>
-        <div class="type">Projects</div>
+        <div class="hour-odometer odometer">7,677</div>
+        <div class="type">Hours of Video Encoded</div>
       </div>
     </div>
-    <section>Hi</section>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js"
@@ -39,7 +40,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
     <script src="main.js"></script>
   </body>
 </html>

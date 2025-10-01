@@ -25,11 +25,11 @@ const createOdometer = (el, value) => {
   observer.observe(el);
 };
 
-const subscribersOdometer = document.querySelector(".subscribers-odometer");
-createOdometer(subscribersOdometer, 29800);
+const videoOdometer = document.querySelector(".video-odometer");
+createOdometer(videoOdometer, 117274);
 
-const videosOdometer = document.querySelector(".videos-odometer");
-createOdometer(videosOdometer, 790);
+const ingestOdometer = document.querySelector(".ingest-odometer");
+createOdometer(ingestOdometer, 58411);
 
-const projectsOdometer = document.querySelector(".projects-odometer");
-createOdometer(projectsOdometer, 89);
+const hourOdometer = document.querySelector(".hour-odometer");
+createOdometer(hourOdometer, 7677);

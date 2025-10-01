@@ -1,14 +1,13 @@
 body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
+  margin: 50px;
+  background-color: #000000;
 }
 
-section {
-  height: 100vh;
-  background: #fefae0;
-  display: grid;
-  place-items: center;
-  font-size: 90px;
+.logo {
+  max-width: 1000px;
+  text-align: center;
+  margin: 30px auto;
+  padding-inline: 16px;
 }
 
 .stats-container {
@@ -17,40 +16,33 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
   margin: 30px auto;
   max-width: 1000px;
+  height: auto;
   padding-inline: 16px;
 }
 
 .stats-container .stat {
-  background: #ef233c;
-  padding: 24px;
+  background: #7a81ff;
+  padding: 20px; 
   text-align: center;
-  color: #edf2f4;
+  color: #000000;
 }
-
 .stats-container .stat .odometer {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   display: inline-block;
+  font-family: "Courier New";
 }
-
 .stats-container .stat .type {
   font-size: 20px;
-}
-
-.odometer.plus {
-  position: relative;
-}
-
-.odometer.plus::after {
-  content: "+";
-  position: absolute;
-  top: 0;
-  right: -16px;
-  font-size: 20px;
+  color: #fed53b;
+  font-family: "Eagle";
 }
 
 @media (max-width: 700px) {
   .stats-container {
     grid-template-columns: 1fr;
+  }
+  img {
+    max-width: 300px;
   }
 }
